@@ -1,0 +1,32 @@
+.btn-success:hover {
+   background-color: rgb(242, 255, 127); 
+   color:black;
+}
+canvas {
+  animation-name: example;  
+  animation-duration:4s ;
+  animation-iteration-count: infinite;
+  border-radius: 10px;
+  border: 5px solid white;
+  
+
+}
+@keyframes example{
+   from {box-shadow: 1px  1px 45px blue;}
+   to {box-shadow: 1px  1px  48px   red}
+}
+.heading {
+   width: 100%;
+   margin: 0;
+   color: black;
+   font-family: 'Franklin Gothic Medium';
+   font-size: 30px;
+}
+button {
+   background-color: black;
+   color: white;
+   font-size: 25px;
+   font-family: 'Arial Narrow';
+}
+
+
